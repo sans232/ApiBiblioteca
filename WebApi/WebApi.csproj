@@ -91,27 +91,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\AutorController.cs" />
-    <Compile Include="Controllers\CategoriaController.cs" />
-    <Compile Include="Controllers\EditorialController.cs" />
-    <Compile Include="Controllers\LibroController.cs" />
-    <Compile Include="Data\AutorData.cs" />
+    <Compile Include="Controllers\PersonaController.cs" />
+    <Compile Include="Controllers\TipoPersonaController.cs" />
+    <Compile Include="Data\TipoPersonaData.cs" />
     <Compile Include="Data\Conexion.cs" />
-    <Compile Include="Data\CategoriaData.cs" />
-    <Compile Include="Data\EditorialData.cs" />
-    <Compile Include="Data\LibroData.cs" />
+    <Compile Include="Data\PersonaData.cs" />
+    <Compile Include="Data\HashHelper.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Autor.cs" />
-    <Compile Include="Models\Categoria.cs" />
-    <Compile Include="Models\Editorial.cs" />
-    <Compile Include="Models\Libro.cs" />
+    <Compile Include="Models\Persona.cs" />
+    <Compile Include="Models\TipoPersona.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\WebApibibliloteca2 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\WebApiUsuariosDefinitive - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

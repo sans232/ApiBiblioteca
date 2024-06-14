@@ -7,10 +7,11 @@ using System.Text;
 
 namespace WebApi.Models
 {
-    public class Autor
+
+    public class TipoPersona
     {
-        public int IdAutor { get; set; }
+        public int IdTipoPersona { get; set; }
         public string Descripcion { get; set; }
-        public bool Estado { get; set; }
+
     }
 }
